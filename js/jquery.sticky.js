@@ -40,6 +40,8 @@
               .css('position', '')
               .css('top', '');
             s.stickyElement.parent().removeClass(s.className);
+            $("#img-logo").css("margin-top","30px");
+
             s.currentTop = null;
           }
         }
@@ -61,6 +63,8 @@
             }
 
             s.stickyElement.parent().addClass(s.className);
+            console.log("TEST");
+            $("#img-logo").css("margin-top","3px");
             s.currentTop = newTop;
           }
         }
