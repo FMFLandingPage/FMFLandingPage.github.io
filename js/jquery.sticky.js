@@ -40,7 +40,10 @@
               .css('position', '')
               .css('top', '');
             s.stickyElement.parent().removeClass(s.className);
-            $("#img-logo").css("margin-top","30px");
+
+            $("#img-logo").css("margin-top", "50px");
+            $(".navheight").css("height", "150");
+
 
             s.currentTop = null;
           }
@@ -63,8 +66,11 @@
             }
 
             s.stickyElement.parent().addClass(s.className);
-            console.log("TEST");
-            $("#img-logo").css("margin-top","3px");
+
+            $(".navheight").css("height", "135px");
+            $("#img-logo").css("margin-top", "17px");
+
+
             s.currentTop = newTop;
           }
         }
