@@ -95,6 +95,14 @@
 	.our-process-item i { width: 32px; height: 32px; color: #7d7d86; text-align: center; font-size: 32px; float: left; padding: 20px; border-radius: 39px; border: 3px solid #e5e5e5; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
 	.our-process-item:hover i { background: #e84a52; color: #fff; border-color: #f28d93; }
 	.our-process-item h5 { font-weight: 400; font-size: 17px; margin: 16px 10px 8px 0; }
+
+	.no-before:before {
+		display:none;
+	}
+
+	.no-after:after {
+		display: none;
+	}
 	
 	@media only screen and (max-width: 767px) {
 	.our-process.proc4level { height: 640px; }

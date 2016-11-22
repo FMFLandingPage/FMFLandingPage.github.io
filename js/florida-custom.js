@@ -5,6 +5,10 @@
 
 jQuery(document).ready(function($){
 
+	$(".fifth-process-item").addClass("no-before");
+	$(".proc4level").addClass("no-before");
+	$(".proc4level").addClass("no-after");
+
 	/* prepend menu icon */
 	$('#nav-wrap').prepend('<div id="menu-icon"><i class="fa-navicon"></i> Menu - <span class="mn-clk">Navigation</span></div>');
 	

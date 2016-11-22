@@ -26,7 +26,12 @@
 	@import url('./iconfonts.css'); /* Import Vector Icons Stylesheet */
 	
 	/*-----------------------------------------------------------------------------------*/
-	
+		@media (max-width: 767px) {
+		.fifth-process-item {
+			margin-left: 0 !important;
+			margin-top: 0 !important;
+		}
+	}
 	
 	
 	/* #Site Styles
@@ -479,4 +484,5 @@
 	
 	}	
 	
-	/* ---------------------
+	/* --------------------- */
+
