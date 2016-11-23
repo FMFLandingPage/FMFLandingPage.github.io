@@ -114,6 +114,13 @@ else {
             jQuery("html, body").animate({ scrollTop: 0 }, 700);
             return false;
         });
+
+        jQuery('.learnButton').click(function(){
+            $('html, body').animate({
+                   scrollTop: $(".learnButton").offset().top + 120
+            }, 700);
+            return false;
+        });
  
     });
   
