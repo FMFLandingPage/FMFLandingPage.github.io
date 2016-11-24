@@ -32,6 +32,21 @@
 			margin-top: 0 !important;
 		}
 	}
+
+	@font-face {
+	font-family: opensans;
+	src: url("OpenSans-ExtraBold.ttf") format("opentype");
+	}
+
+	@font-face {
+	font-family: opensans-light;
+	src: url("OpenSans-Light.ttf") format("opentype");
+	}
+
+	@font-face {
+	font-family: opensans-regular;
+	src: url("OpenSans-Regular.ttf") format("opentype");
+	}
 	
 	
 	/* #Site Styles
