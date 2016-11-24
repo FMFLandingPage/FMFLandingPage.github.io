@@ -134,7 +134,7 @@ else {
 
         jQuery('.learnButton').click(function(){
             $('html, body').animate({
-                   scrollTop: $(".learnButton").offset().top + 70
+                   scrollTop: $(".fa-cloud").offset().top - 100
             }, 700);
             return false;
         });
