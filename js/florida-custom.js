@@ -6,6 +6,7 @@
 jQuery(document).ready(function($){
 
 	$(".fifth-process-item").addClass("no-before");
+	$(".fifth-process-item").addClass("no-after");
 	$(".proc4level").addClass("no-before");
 	$(".proc4level").addClass("no-after");
 
@@ -117,7 +118,7 @@ else {
 
         jQuery('.learnButton').click(function(){
             $('html, body').animate({
-                   scrollTop: $(".learnButton").offset().top + 120
+                   scrollTop: $(".learnButton").offset().top + 80
             }, 700);
             return false;
         });
