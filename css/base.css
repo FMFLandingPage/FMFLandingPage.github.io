@@ -114,7 +114,7 @@
 	.container hr { margin-right: 10px; margin-left: 10px;}
 	.container .columns hr, .container .column hr  { margin-right: 0px; margin-left: 0px;}
 		
-	::selection { background: #e4744f; color: #fff; }
+	/*::selection { background: #e4744f; color: #fff; }*/
 	::-moz-selection { background: #e4744f; color: #fff; }
 
 
@@ -199,7 +199,7 @@
 	  margin-bottom: 21px;
 	  line-height: 1;
 	  padding: 15px 40px;
-	  background: #8fbe32;
+	  background: #D2202F;
 	  -webkit-transition: background 0.18s ease;
 		-moz-transition: background 0.18s ease;
 		-o-transition: background 0.18s ease;
@@ -553,8 +553,8 @@
 	input[type="submit"].green.bordered-bot,
 	input[type="reset"].green.bordered-bot,
 	input[type="button"].green.bordered-bot {
-	  border-color: #8fbe32;
-	  color: #8fbe32;   
+	  border-color: #D2202F;
+	  color: #D2202F;   
 		 }
 		 
 		 

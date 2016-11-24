@@ -929,7 +929,7 @@
 	  background:url(../images/alert-success-ico.png) no-repeat;
 	  background-position: 8px 50%;
 	  background-color: #e1eec9;
-	  border-color: #8fbe32;
+	  border-color: #D2202F;
 	}
 	
 	.alert-danger,
@@ -1144,7 +1144,7 @@
 	}
 	
 	.progress-success .bar, .progress-green .bar {
-	  background-color: #8fbe32;
+	  background-color: #D2202F;
 
 	}
 	
