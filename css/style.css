@@ -47,6 +47,12 @@
 	font-family: opensans-regular;
 	src: url("OpenSans-Regular.ttf") format("opentype");
 	}
+
+	.headerText {
+		left: 0 !important;
+		width: 100% !important;
+		text-align: center;
+	}
 	
 	
 	/* #Site Styles
