@@ -125,7 +125,7 @@ else {
 
         jQuery('.contactScroll').click(function(){
             $('html, body').animate({
-                   scrollTop: $(".dividerDiv").offset().top - 50
+                   scrollTop: $(".contactPage").offset().top - 140
             }, 700);
             // $(".contactScroll").parent().addClass("current");
             // $(".homeScroll").parent().removeClass("current");
