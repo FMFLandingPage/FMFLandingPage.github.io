@@ -140,8 +140,8 @@ else {
         });
 
         $(window).scroll(function(){
-        		 console.log("Window top: " + $(window).scrollTop());
-        		 console.log( $(".contactPage").offsetTop);
+        		// console.log("Window top: " + $(window).scrollTop());
+        		// console.log( $(".contactPage")[0].offsetTop);
         		 
         		if (!$(".contactScroll").parent().hasClass("current") && $(window).scrollTop() >= $(".contactPage")[0].offsetTop - 80){
         			$(".contactScroll").parent().addClass("current");
