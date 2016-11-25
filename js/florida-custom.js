@@ -143,11 +143,11 @@ else {
         		// console.log("Window top: " + $(window).scrollTop());
         		// console.log( $(".dividerDiv")[0].offsetTop);
         		// console.log(!$(".contactScroll").parent().hasClass("current"));
-        		if (!$(".contactScroll").parent().hasClass("current") && $(window).scrollTop() >= $(".dividerDiv")[0].offsetTop - 50){
+        		if (!$(".contactScroll").parent().hasClass("current") && $(window).scrollTop() >= $(".contactPage")[0].offsetTop){
         			$(".contactScroll").parent().addClass("current");
         			$(".homeScroll").parent().removeClass("current");
         		}
-        		else if ((!$(".homeScroll").parent().hasClass("current")) && $(window).scrollTop() < $(".dividerDiv")[0].offsetTop - 50) {
+        		else if ((!$(".homeScroll").parent().hasClass("current")) && $(window).scrollTop() < $(".contactPage")[0].offsetTop) {
         			$(".contactScroll").parent().removeClass("current");
         			$(".homeScroll").parent().addClass("current");
         		}
