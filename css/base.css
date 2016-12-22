@@ -655,6 +655,10 @@
 	.myParagraph { width: inherit !important; }
 	}
 
+.myParagraph {
+	width: 500px;
+}
+
 /* #Misc
 ================================================== */
 
