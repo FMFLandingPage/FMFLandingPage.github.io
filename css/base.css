@@ -652,12 +652,11 @@
 		font-size: 13px;
 		color: #444; }
 @media screen and (max-width: 767px) {
-	.myParagraph { width: inherit !important; }
+	.myParagraph { width: inherit; }
 	}
-
-.myParagraph {
-	width: 500px;
-}
+@media screen and (min-width: 768px) {
+	.myParagraph { width: 500px;
+	}
 
 /* #Misc
 ================================================== */
