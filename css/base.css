@@ -652,7 +652,7 @@
 		font-size: 13px;
 		color: #444; }
 @media screen and (max-width: 767px) {
-	.myParagraph { width: inherit; }
+	.myParagraph { width: inherit !important; }
 	}
 
 /* #Misc
