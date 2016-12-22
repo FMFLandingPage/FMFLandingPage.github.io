@@ -655,7 +655,7 @@
 	.myParagraph { width: inherit; }
 	}
 @media screen and (min-width: 768px) {
-	.myParagraph { width: 500px;
+	.myParagraph { width: 500px; }
 	}
 
 /* #Misc
