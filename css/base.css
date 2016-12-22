@@ -651,7 +651,7 @@
 		font-weight: normal;
 		font-size: 13px;
 		color: #444; }
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.myParagraph { width: inherit; }
 	}
 
