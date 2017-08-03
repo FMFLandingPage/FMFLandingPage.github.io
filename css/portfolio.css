@@ -5,7 +5,7 @@
 	.latest-works .portfolio-item { width: 24.97%; float: left; margin: 0; height: auto; padding: 0; box-sizing: border-box; }
 	.icon-top-title i { display: inline-block; color: #e84a52; font-size: 64px; }
 	.img-item { position: relative; overflow: hidden; margin-bottom: -6px; }
-	.img-item img { width: 100%; height: auto; margin: 0; padding: 0; }
+	.img-item img { width: 100%; height: 300px; margin: 0; padding: 0; }
 	.portfolio { display: block; padding: 0; }
 	.portfolio h4, .recent-works-items h4, .shop-item h4, .side-list h5 { font-weight: 400; margin: 10px 0 7px; font-size: 18px; }
 	.portfolio h4 a, .recent-works-items h4 a, .shop-item h4 a, .side-list h5 a { color: #494949; }
