@@ -130,7 +130,16 @@ else {
             // $(".contactScroll").parent().addClass("current");
             // $(".homeScroll").parent().removeClass("current");
             return false;
-        });
+		});
+		
+        jQuery('.portfolioScroll').click(function(){
+            $('html, body').animate({
+                   scrollTop: $(".portfolio").offset().top - 280
+            }, 700);
+            // $(".contactScroll").parent().addClass("current");
+            // $(".homeScroll").parent().removeClass("current");
+            return false;
+        });		
 
         jQuery('.learnButton').click(function(){
             $('html, body').animate({
