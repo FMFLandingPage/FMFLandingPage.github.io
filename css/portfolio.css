@@ -66,3 +66,7 @@
 		nav.primary .portfolioFilters a { border-radius:2px; margin-bottom:10px; margin-right:5px; padding:4px 8px; font-size:13px; font-weight:400; display:block; float:left;}
 		
 		}
+
+.img-item img{
+	 height: 300px !important; 
+}		
